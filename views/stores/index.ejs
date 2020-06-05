@@ -1,0 +1,31 @@
+<%- include("../partials/header") %>
+
+ <div class="container">
+     <header class="xyz jumbotron">
+         <div class="container">
+             <h1>Welcome To E-automobile Services!</h1>
+             <p>View our hand-picked Servicing Centers from all over your city</p>
+             <p>
+                <a class="btn btn-primary btn-large" href="/stores/new">Add Your Store</a>
+             </p>
+         </div>
+     </header>
+     
+     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% stores.forEach(function(store){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="abc thumbnail">
+                   <img src="<%= store.image %>">
+                   <div class="caption">
+                       <h4><%= store.name %></h4>
+                   </div>
+                   <p>
+                       <a href="/stores/<%= store._id %>" class="btn btn-primary">More Info</a>
+                   </p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
+
+<%- include("../partials/footer") %>

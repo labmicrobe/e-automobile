@@ -1,0 +1,44 @@
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+   padding: 0;  
+}
+
+.abc {
+  background-color: rgb(211,211,211); 
+  opacity: 0.95; 
+}
+
+.well {
+ background-color: rgb(245,245,245);
+ opacity: 0.90;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToWwTQwIGO9hDV2FZUSW5au-hkzg56Tk0ZKcB2VLSP03txgiMk&usqp=CAU");
+
+  /* Full height */
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.xyz{
+ background-color: rgb(211,211,211);
+ opacity: 0.90;
+}
