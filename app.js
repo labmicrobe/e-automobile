@@ -23,7 +23,7 @@ var commentRoutes    = require("./routes/comments"),
 	// console.log('ERROR:', err.message);
  // });
 
-  mongoose.connect('mongodb+srv://dikshant1:dikki99@cluster0-ox0zq.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+  mongoose.connect('mongodb+srv://dikshant:dikki99@cluster0-ox0zq.mongodb.net/<dbname>?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
 	useCreateIndex: true,
 	useUnifiedTopology: true
